@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Угадай число</h1>
+      <div class="number">?</div>
+      <p class="rules">От 1 до 30</p>
+      <button class="btn again">Начачать с начала</button>
+    </header>
+    <main>
+      <section class="left">
+        <input type="number" class="guess" />
+        <button class="btn check">Проверить</button>
+      </section>
+      <section class="right">
+        <p class="message">Введи число</p>
+        <p class="hightscore">
+          🏆Рекорд: <span class="hightscore-points"> 0 </span>
+        </p>
+        <p class="score">❤️Жизни: <span class="score-points">30</span></p>
+        <p></p>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
